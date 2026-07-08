@@ -2,8 +2,10 @@
 A full-stack web forum application that allows users to register accounts, create fitness and gym-related topics, posts and comments as well as interact through likes. 
 
 > **Tech Stack:** React + Vite • TypeScript • Material UI • Axios • Go • SQLite
-## Deployed Application 
+
 **Frontend URL:** *https://nus-lifters-web-forum.netlify.app/forum*
+
+**Backend GitHub Repo:** *https://github.com/Sengernest/NUS-Lifters-Backend.git*
 
 ---
 
@@ -36,10 +38,15 @@ A full-stack web forum application that allows users to register accounts, creat
 ## Running locally
 
 ### Backend Setup
-1. Clone the backend repository:  
-   https://github.com/Sengernest/CVWO-NUS-Lifters-Club-Web-Forum-Backend.git
-2. Navigate into the cloned directory
-3. Before running the server, a JWT secret key must be set as an environment variable in the terminal:
+### 1. Clone the backend repository:  
+
+```bash
+git clone https://github.com/Sengernest/NUS-Lifters-Backend.git
+```
+
+### 2. Go into the directoy which the repo was cloned into
+
+### 3. Before running the server, a JWT secret key must be set as an environment variable in the terminal:
    - **Windows (PowerShell)**  
      ```powershell
      $env:JWT_KEY="cvwo-secret-key"
@@ -52,21 +59,17 @@ A full-stack web forum application that allows users to register accounts, creat
      ```bash
      export JWT_KEY="cvwo-secret-key"
      ```
-4. Run the backend server:
+4. Run the backend server
    
    ```bash
    go run main.go
    ```
-   
-6. Backend will run on
-   ```bash
-   https://localhost8080
 
 ### Frontend Setup
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Sengernest/MealShark-Frontend.git
+git clone https://github.com/Sengernest/NUS-Lifters-Frontend.git
 ```
 
 ### 2. Go into the directory where the repo was cloned into 
