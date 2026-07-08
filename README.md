@@ -1,7 +1,9 @@
-# CVWO Winter Assignment NUS Lifters Web Forum 
+# NUS Lifters
+A full-stack web forum application that allows users to register accounts, create fitness and gym-related topics, posts and comments as well as interact through likes. 
 
-## Project Overview
-NUS Lifters Web Forum is a full-stack web forum application that allows users to register accounts, create fitness and gym-related topics, posts and comments as well as interact through likes. 
+> **Tech Stack:** React + Vite • TypeScript • Material UI • Axios • Go • SQLite
+## Deployed Application 
+**Frontend URL:** *https://nus-lifters-web-forum.netlify.app/forum*
 
 ---
 
@@ -16,14 +18,14 @@ NUS Lifters Web Forum is a full-stack web forum application that allows users to
 
 ## Tech Stack
 **Frontend**
-- React (TypeScript)
+- React
+- TypeScript
 - Material UI
 - Axios
 
 **Backend**
 - Go
 - SQLite database
-- JWT authentication
 
 **Deployment**
 - Frontend: Netlify
@@ -31,7 +33,7 @@ NUS Lifters Web Forum is a full-stack web forum application that allows users to
 
 ---
 
-## Setup Instructions
+## Running locally
 
 ### Backend Setup
 1. Clone the backend repository:  
@@ -51,25 +53,35 @@ NUS Lifters Web Forum is a full-stack web forum application that allows users to
      export JWT_KEY="cvwo-secret-key"
      ```
 4. Run the backend server:
+   
    ```bash
    go run main.go
-5. Backend will run on
+   ```
+   
+6. Backend will run on
    ```bash
    https://localhost8080
 
- ### Frontend Setup
- 1. Clone the frontend repo: https://github.com/Sengernest/cvwo-nus-lifters-club-web-forum-frontend.git
- 2. Go into the directory which the repo was cloned
- 3. Install dependencies:
-    ```bash
-    npm install
- 4. Start the frontend using this command:
-    ```bash
-    npm start
- 5. Frontend will run on:
-    ```bash
-    http://localhost:3000
+### Frontend Setup
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/Sengernest/MealShark-Frontend.git
+```
+
+### 2. Go into the directory where the repo was cloned into 
+
+### 3. Install dependencies
+
+ ```bash
+    npm install
+  ```
+    
+### 4. Start the development server
+
+```bash
+npm run dev
+```
 ---
 
 ## Deployed Application 
@@ -78,19 +90,3 @@ https://nus-lifters-web-forum.netlify.app/forum
 
 **Backend (Render):**
 https://cvwo-nus-lifters-club-web-forum-backend.onrender.com
-
----
-
-## AI Usage Declaration
-AI tool (ChatGPT) was used strictly as a learning aid and code review
-assistant, in accordance with assignment guidelines.
-
-ChatGPT was used for:
-- Understanding deployment concepts such as environment variables,
-CORS configuration, and frontend–backend integration.
-- Interpreting error messages encountered during development
-(React, Axios, and Material UI).
-- Reviewing code structure and suggesting refactoring improvements.
-- Learning how to use Material UI components effectively.
-
----
