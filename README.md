@@ -72,7 +72,7 @@ git clone https://github.com/Sengernest/NUS-Lifters-Frontend.git
 ### 3. Install dependencies
 
  ```bash
-    npm install
+ npm install
   ```
 
 ### 4. Create .env file and include the API url
