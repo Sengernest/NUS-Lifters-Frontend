@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
         <Toolbar sx={{ gap: 1 }}>
           <Box sx={{ flexGrow: 1, minWidth: 0 }}>
             <Typography variant="h6" noWrap>
-              NUS Lifters Web Forum
+              NUS Lifters
               {loggedIn && username ? ` — ${username}` : ""}
             </Typography>
             {!loggedIn && (
