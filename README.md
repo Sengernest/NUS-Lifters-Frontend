@@ -3,7 +3,7 @@ A full-stack web forum application that allows users to register accounts, creat
 
 > **Tech Stack:** React + Vite • TypeScript • Material UI • Axios • Go • SQLite
 
-**Frontend URL:** *https://nus-lifters-web-forum.netlify.app/forum*
+**Frontend URL:** *https://nus-lifters.netlify.app/*
 
 **Backend GitHub Repo:** *https://github.com/Sengernest/NUS-Lifters-Backend.git*
 
