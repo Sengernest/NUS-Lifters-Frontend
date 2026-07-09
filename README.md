@@ -54,11 +54,11 @@ FRONTEND_URL=http://localhost:3000
 PORT=8080
 ```
 
-4. Run the backend server
-   
-   ```bash
-   go run main.go
-   ```
+###4. Run the backend server
+
+```bash
+go run main.go
+```
 
 ### Frontend Setup
 ### 1. Clone the repository
