@@ -46,19 +46,14 @@ git clone https://github.com/Sengernest/NUS-Lifters-Backend.git
 
 ### 2. Go into the directoy which the repo was cloned into
 
-### 3. Before running the server, a JWT secret key must be set as an environment variable in the terminal:
-   - **Windows (PowerShell)**  
-     ```powershell
-     $env:JWT_KEY="cvwo-secret-key"
-     ```
-   - **Windows (Command Prompt)**  
-     ```cmd
-     set JWT_KEY=cvwo-secret-key
-     ```
-   - **macOS / Linux**  
-     ```bash
-     export JWT_KEY="cvwo-secret-key"
-     ```
+### 3. Create .env file and include the environment variables
+
+```env
+JWT_KEY=your-seceret-key
+FRONTEND_URL=http://localhost:3000
+PORT=8080
+```
+
 4. Run the backend server
    
    ```bash
@@ -79,17 +74,16 @@ git clone https://github.com/Sengernest/NUS-Lifters-Frontend.git
  ```bash
     npm install
   ```
+
+### 4. Create .env file and include the API url
+
+```env
+REACT_APP_API_URL=http://localhost:8080
+```
     
-### 4. Start the development server
+### 5. Start the development server
 
 ```bash
 npm run dev
 ```
 ---
-
-## Deployed Application 
-**Frontend (Netlify):**
-https://nus-lifters-web-forum.netlify.app/forum
-
-**Backend (Render):**
-https://cvwo-nus-lifters-club-web-forum-backend.onrender.com
