@@ -54,7 +54,7 @@ FRONTEND_URL=http://localhost:3000
 PORT=8080
 ```
 
-###4. Run the backend server
+### 4. Run the backend server
 
 ```bash
 go run main.go
